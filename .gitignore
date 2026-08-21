@@ -1,0 +1,16 @@
+build/
+.gradle/
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+.idea/
+*.iml
+out/
+
+# Runtime data and local credentials
+.repopilot/
+.env
+.env.*
+!.env.example
+
+# Generated reports
+evidence-report.md
