@@ -23,7 +23,7 @@ repositories {
 
 dependencies {
     // JSON persistence for repository-local task state.
-    implementation("com.fasterxml.jackson.core:jackson-databind:2.21.3")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.22.2")
 
     testImplementation("org.junit.jupiter:junit-jupiter:5.11.4")
 }
