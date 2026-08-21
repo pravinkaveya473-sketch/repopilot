@@ -17,7 +17,7 @@ jobs:
           distribution: temurin
           java-version: "21"
           cache: gradle
-      - uses: gradle/actions/setup-gradle@v4
+      - uses: gradle/actions/setup-gradle@v6
       - name: Verify and package
         run: ./gradlew clean check shadowJar
       - name: Publish GitHub release
